@@ -20,8 +20,8 @@ function SignupScreen() {
                 "Auth failed!",
                 "Could not sign you up. Please check your credentials or try again later!"
             )
+            setIsAuthenticating(false)
         }
-        setIsAuthenticating(false)
     }
 
     if (isAuthenticating) {
